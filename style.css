@@ -2033,7 +2033,9 @@ blockquote cite {
   color: var(--light-color);
 }
 .banner-content h2.banner-title span {
-  color: var(--light-primary-color);
+  color: var(--primary-color);
+  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff,
+    1px -1px 0 #fff;
 }
 .banner-content p {
   color: var(--light-color);
