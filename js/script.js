@@ -229,7 +229,8 @@
   });
 
   const fab = document.querySelector(".whatsapp-fab");
-  const heroSection = document.querySelector("#billboard");
+  const heroSection =
+    document.querySelector("#billboard") || document.querySelector("#header");
 
   function checkScroll() {
     const heroHeight = heroSection.offsetHeight;

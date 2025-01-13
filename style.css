@@ -1009,18 +1009,18 @@ img.image-circle {
   text-align: center;
 }
 .site-banner h1.page-title {
-  font-size: 7.2em;
+  font-size: 5.2em;
   font-weight: 800;
   line-height: 1em;
   letter-spacing: -0.02em;
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: var(--light-grey-color);
+}
+.breadcrumbs a {
+  color: var(--accent-color);
 }
 .breadcrumbs a:hover {
-  color: var(--accent-color);
-}
-.breadcrumbs {
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 .breadcrumbs .item {
   text-transform: capitalize;
